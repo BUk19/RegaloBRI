@@ -29,3 +29,36 @@ button, input {
         font-size: 14px;
     }
 }
+
+@media (max-width: 768px) {
+
+    .home-container {
+        padding: 20px;
+        text-align: center;
+    }
+
+    #japaneseText {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .audio-panel {
+        width: 90%;
+        height: auto;
+    }
+
+    .audio-panel img {
+        width: 100%;
+        height: auto;
+    }
+
+    button {
+        width: 100%;
+        max-width: 300px;
+        font-size: 1rem;
+    }
+
+    .final-buttons button {
+        width: 90%;
+    }
+}
